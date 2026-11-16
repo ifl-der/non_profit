@@ -8,6 +8,15 @@ Guidance for AI coding agents that work on this repository.
 - It runs inside a Frappe **bench**. It does not run on its own.
 - Default branch: `develop`.
 
+## Open source
+
+This repo is a fork of the open-source [`frappe/non_profit`](https://github.com/frappe/non_profit) and stays open source.
+
+- Keep `license.txt` (GNU GPL v3) and all license headers. Do not change the license.
+- Do not commit secrets, credentials, or `site_config.json`.
+- Do not commit real member, donor, or volunteer data. Use made-up data in tests and fixtures. Real personal data falls under KVKK (Turkish data protection law).
+- Write commits, comments, and docs for a public reader.
+
 ## Layout
 
 ```text
